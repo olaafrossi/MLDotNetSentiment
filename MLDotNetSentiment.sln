@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLDotNetSentiment.ConsoleUI", "MLDotNetSentiment.ConsoleUI\MLDotNetSentiment.ConsoleUI.csproj", "{06F7D23F-7964-46C4-8AA8-40AABBD535D3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLModel01.ConsoleUI", "MLModel01.ConsoleUI\MLModel01.ConsoleUI.csproj", "{B894B483-5A8C-43FA-B1D9-CB2958FB942A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLModel01.ConsoleApp02", "MLModel01.ConsoleApp02\MLModel01.ConsoleApp02.csproj", "{EE475334-7BCD-4770-A175-A280D8C8AC30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{06F7D23F-7964-46C4-8AA8-40AABBD535D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06F7D23F-7964-46C4-8AA8-40AABBD535D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06F7D23F-7964-46C4-8AA8-40AABBD535D3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B894B483-5A8C-43FA-B1D9-CB2958FB942A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B894B483-5A8C-43FA-B1D9-CB2958FB942A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B894B483-5A8C-43FA-B1D9-CB2958FB942A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B894B483-5A8C-43FA-B1D9-CB2958FB942A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE475334-7BCD-4770-A175-A280D8C8AC30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE475334-7BCD-4770-A175-A280D8C8AC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE475334-7BCD-4770-A175-A280D8C8AC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE475334-7BCD-4770-A175-A280D8C8AC30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

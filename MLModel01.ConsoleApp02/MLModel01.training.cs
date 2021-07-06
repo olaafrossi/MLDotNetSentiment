@@ -9,7 +9,7 @@ using Microsoft.ML.Trainers.FastTree;
 using Microsoft.ML.Trainers;
 using Microsoft.ML;
 
-namespace MLDotNetSentiment_ConsoleUI
+namespace MLModel01.ConsoleApp02
 {
     public partial class MLModel01
     {

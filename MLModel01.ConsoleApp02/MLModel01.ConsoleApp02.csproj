@@ -4,6 +4,22 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="1.5.5" />
+    <PackageReference Include="Microsoft.ML.FastTree" Version="1.5.5" />
+  </ItemGroup>
+  <ItemGroup Label="MLModel01">
+    <None Include="MLModel01.consumption.cs">
+      <DependentUpon>MLModel01.mbconfig</DependentUpon>
+    </None>
+    <None Include="MLModel01.training.cs">
+      <DependentUpon>MLModel01.mbconfig</DependentUpon>
+    </None>
+    <None Include="MLModel01.zip">
+      <DependentUpon>MLModel01.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="5.0.3">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -26,17 +42,5 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
-  </ItemGroup>
-  <ItemGroup Label="MLModel01">
-    <None Include="MLModel01.consumption.cs">
-      <DependentUpon>MLModel01.mbconfig</DependentUpon>
-    </None>
-    <None Include="MLModel01.training.cs">
-      <DependentUpon>MLModel01.mbconfig</DependentUpon>
-    </None>
-    <None Include="MLModel01.zip">
-      <DependentUpon>MLModel01.mbconfig</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
 </Project>

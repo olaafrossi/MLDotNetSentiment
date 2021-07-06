@@ -1,33 +1,29 @@
 ﻿// Created by Three Byte Intermedia, Inc.
-// Solution: MLDotNetSentiment || Project: MLModel01.ConsoleUI
+// Solution: MLDotNetSentiment || Project: MLModel01.ConsoleApp02
 // File: Program.cs
-// Created: 2021 07 06 11:18 AM || Updated: 2021 07 06 11:39 AM
+// Created: 2021 07 06 11:49 AM || Updated: 2021 07 06 11:58 AM
 // by Olaaf Rossi
 
 using System;
 
-namespace MLModel01.ConsoleUI
+namespace MLModel01.ConsoleApp02
 {
     internal class Program
     {
         private static void Main(string[] args)
         {
+            Console.WriteLine("Please write something");
+            string consoleText = Console.ReadLine();
+
             // Create single instance of sample data from first line of dataset for model input
+
             MLModel01.ModelInput sampleData = new()
             {
-                
                 Col0 = @"Wow... Loved this place."
-                Col1 = @"Crust is not good."
-                Col2 = @"Not tasty and the texture was just nasty."
-                Col3 = @"Stopped by during the late May bank holiday off Rick Steve recommendation and loved it."
-                Col4 = @"The selection on the menu was great and so were the prices."
-                Col5 = @"Now I am getting angry and I want my damn pho."
-                Col6 = @"Honeslty it didn't taste THAT fresh."
             };
 
             // Make a single prediction on the sample data and print results
-            MLModel01.ModelOutput predictionResult = MLModel01.Predict(sampleData);
-
+            var predictionResult = MLModel01.Predict(sampleData);
 
             Console.WriteLine(
                 "Using model to make single prediction -- Comparing actual Col1 with predicted Col1 from sample data...\n\n");

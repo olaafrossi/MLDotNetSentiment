@@ -8,7 +8,7 @@ using Microsoft.ML.Data;
 using Microsoft.ML.Trainers;
 using Microsoft.ML;
 
-namespace MLModel01_ConsoleUI
+namespace MLModel01.ConsoleUI
 {
     public partial class MLModel01
     {

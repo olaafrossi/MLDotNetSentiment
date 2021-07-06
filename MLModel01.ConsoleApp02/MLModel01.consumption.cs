@@ -6,7 +6,7 @@ using System.Linq;
 using System.IO;
 using System.Collections.Generic;
 
-namespace MLModel01.ConsoleUI
+namespace MLModel01.ConsoleApp02
 {
     public partial class MLModel01
     {
