@@ -22,6 +22,12 @@ namespace MLModel01.ConsoleApp02
                 Col0 = @"Wow... Loved this place."
             };
 
+            MLModel01.ModelOutput output = new MLModel01.ModelOutput();
+
+            output.Prediction(consoleText);
+            Console.WriteLine(output);
+
+
             // Make a single prediction on the sample data and print results
             var predictionResult = MLModel01.Predict(sampleData);
 
@@ -32,7 +38,7 @@ namespace MLModel01.ConsoleApp02
             Console.WriteLine($"Col0: {sampleData.Col0}");
 
 
-            Console.WriteLine($"\n\nPredicted Col1: {predictionResult.Prediction}\n\n");
+            //Console.WriteLine($"\n\nPredicted Col1: {predictionResult.Prediction}\n\n");
             Console.WriteLine("=============== End of process, hit any key to finish ===============");
             Console.ReadKey();
         }
